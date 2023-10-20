@@ -9,9 +9,8 @@ This project is a ready-to-use starting point for developing C++ applications or
 2. Make a build directory and enter it and compile the project
 ```
 cd gtest_template
-mkdir build && cd build
-cmake ..
-make
+cmake -B build
+cmake --build build
 ```
 3. Run the main program or the tests
 ```./main``` or ```./tests```
